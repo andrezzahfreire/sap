@@ -1,2 +1,2 @@
-# sap
-Repositório refernte as aulas de sap
+# Sap
+Repositório referente as aulas de sap
