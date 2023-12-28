@@ -1,0 +1,321 @@
+Iniciar servidor sap 
+su npladm
+startsap all
+
+
+se10 ver transaçoes
+request dentro da request é uma tarefa
+
+ctrl + , = comenta um bloco de código
+
+ctrl  + . = descomenta um bloco de código
+
+ld = varivavel de simples de escopo local
+
+gl = variável de escopo global
+
+f1 = informações do campo 
+
+se38 = programas 
+
+f3 = voltar tela anterior (botão anterior)
+
+f4 = valores possíveis 
+
+f8 = executa um programa 
+
+f4 = completa 
+
+se24 = classe 
+
+se11 = dicionário 
+
+documentação 
+
+f1 = documentação do comando
+ exemplos de uso
+
+tabb = auto complete 
+
+ctrl + espaco = proximo comando 
+. termina a execução 
+
+
+01/12/2023
+transação se91
+mensagem simples
+mensagens com 1 parametro
+mensagem com 2 parametros
+mesagem com documentação
+Definir classe da mensagem no report 
+
+Vantagens
+Lista de utilizações
+Facilidade no debug
+Compartilhamento de mensagens entre programas
+
+& = parametro
+classe de mensagem
+
+
+017
+Eventos da tela de seleção
+output = andes da tela aparecer
+pbo 
+on = 
+help request = f1 
+value request = f4
+bloco 
+radiogrup
+
+includes
+fazer blocos de código 
+
+include top = variáveis 
+
+include funcoes 
+include top = variáveis
+include sel = escopo de seleção
+include sos = estruturas de decisão, start of selection ("funções")
+
+019: forms
+perform = chamar formulário
+f5 = executar e entrar no código
+f6 = executar sem entrar no código
+
+using e changing.
+
+estrutura 
+
+tabela de banco de dados = tabela trnasparente
+
+04/12/2023
+
+022
+
+05/12/2023 
+o que são notas 
+são os programas standard 
+procurando uma nota 
+
+sap note 
+número unico (starkoverflow da sap)
+
+start of deletion
+
+end of deletion 
+
+/osnote
+
+06/12/2023
+
+Download de arquivos de texto e binário
+Hashed Table
+Transação de report 
+Variantes
+ 
+se24
+se93 acessar transação
+se11 
+se38
+/H entra no debug
+
+/n volta pra tela de início
+
+
+
+sm04
+08/12/2023
+telas 
+status gui
+
+
+04/12/2023
+status gui 
+titulos gui
+executar report em background 
+resolvendo dumps
+versionamento
+transporte de requests 
+request de copia 
+Transações para consultar dados (SE16, SE16N e SE16H)
+
+
+st22 todos os dumps do sistema
+se10
+pra salvar uma versão de um programa tem que criar uma nova request 
+e liberar a antiga 
+
+Tipos de request 
+customazing requests 
+workbench requests
+transport of copies
+relocations
+
+transaçoes = se38,se24,se11,se09,se10,popup,stms
+
+se16
+
+12/12/2023
+Dicionário de Dados (DDIC)
+Domínios (DDIC)
+Elemento de Dados (DDIC)
+Estrutura (DDIC)
+Tipos de Tabela (DDIC)
+
+uma linha de uma tabela interna geralmnte é uma estrutura
+se11 - acessa o dicionário de dados 
+*não entendi a parte do estrutura append 
+
+
+
+13/12/2023
+Introdução a banco de dados
+Tabelas Transparentes (DDIC)
+Índices (DDIC)
+View (DDIC)
+Ajuste de tabelas que não ativam no DDIC
+
+nova versão = sap for hana
+integridade referencial 
+concorrencia 
+transações
+segurança
+backup / restauração
+recuperação de falhas 
+
+tipos de objeto
+table
+view
+index 
+store procedure
+function 
+trigger
+event
+
+tipos de comando
+ddl data definition language
+create
+drop
+alter
+truncate
+
+dml data manipulation language 
+insert
+update
+delete
+select
+
+diagrama de entidade e relacionamento der
+
+criar o diagrama sempre antes de começar a programar
+forward engineer
+
+tabela transparente tabela de banco de dados
+sempre tem que ter o campo de mandante (salvo raras excessoes)
+
+mara,lfa1,vbak,vbap,likp
+só salva se ativar a tabela do dicionário pra sincronizar com o banco
+
+o indice ajuda a realizar pesquisas mais rápido
+causa uma lentidão na atualização da tabela
+no sap hana não precisa criar indice 
+
+stravelag
+se14
+
+14/12/2023
+Ajuda de Pesquisa Elementar
+Objeto de Bloqueio (DDIC)
+
+
+/nsu01 modificar usuário local sap
+equetable bloqueia
+desqueue e teble desbloqueia 
+objeto de bloqueio evita inconsistencias 
+
+
+15/12/2023
+table Control
+	o uque é
+	como criar
+	gneux.exe screen painter
+	f9 seleciona tudo 
+	table*control* aparece todas as tabelas control de exemplo do sap
+ABAP List Viewer (ALV) - O básico
+	o que é
+	como fazer
+Module Pool
+	o que é
+	module pool x report
+	como fazer
+18/12/2023
+Função
+	O que é
+	como fazer
+	/nse37
+	/nse80
+	call function
+
+Rotinas de Conversão
+	o que é 
+	como fazer 
+	conversoes de unidade
+	t006a
+	CONVERSION_EXIT_CUNIT_OUTPUT
+	rotinas de conversão alfa
+	CONVERSION_EXIT_ISOLA_INPUT	
+	CONVERSION_EXIT_ALPHA_INPUT COMPLETA COM ZEROS Á ESQUERDA
+	CONVERSION_EXIT_ALPHA_OUTPUT TIRA OS ZEROS Á ESQUERDA
+	como criar a sua própia rotina de conversão 
+
+Especificação Funcional (EF)
+	o que é 
+	solman
+	ferramentas de ticket
+	email
+	o que faz um funcional 
+	análise de necessidade
+	como solicitar demanda ao abap
+	et = especifiçação técnica
+19/12/2023
+	Sistema de Gestão de Clientes (CRUD)
+		criar pacote
+		criar request
+		criar tabela
+		criar campos
+		criar elemento
+		criar domínio
+		salvar e ativar
+		*fazer apenas o que foi pedido
+		
+		se38
+		criar programa
+		criar includes
+		criar estruturas 
+		criar telas
+		criar modulos das telas
+		adicionar os módulos ao include de eventos
+		criar o status gui
+		criar o title bar
+		criar formulário
+
+20/12/2023
+21/12/2023
+28/12/2023
+	Sistema de Gestão de Clientes (CRUD)
+	criar tela
+	puxar os campos da estrutura do programa
+	coloca uma moldura
+	colocar as labels
+	criar uma transação
+	testar
+	colocar case sensitive nos campos necessários
+	modificacao
+		criar transação
+		criar tela
+		criar modulos da tela
+		não misturar os includes das telas
+		criar os módulos pbo e pai e colocar no include de eventos da tela
+		criar status gui e title bar 
+		1:03:58 
