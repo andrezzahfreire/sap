@@ -302,7 +302,6 @@ Especificação Funcional (EF)
 
 20/12/2023
 21/12/2023
-28/12/2023
 	Sistema de Gestão de Clientes (CRUD)
 	criar tela
 	puxar os campos da estrutura do programa
@@ -318,4 +317,9 @@ Especificação Funcional (EF)
 		não misturar os includes das telas
 		criar os módulos pbo e pai e colocar no include de eventos da tela
 		criar status gui e title bar 
-		1:03:58 
+29/12/2023
+		colocar o ok code nas telas
+		criar o report para consulta
+		criar os includes top,sel,sos
+		criar tabela interna
+		1:39:50
