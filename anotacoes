@@ -322,4 +322,13 @@ Especificação Funcional (EF)
 		criar o report para consulta
 		criar os includes top,sel,sos
 		criar tabela interna
-		1:39:50
+
+04/01/2024
+		adicionar o status gui standard 
+		e adicionar os botoes de criar,
+		editar e excluir 
+		crie e vincule os parametros necessarios 
+	064: Especificação Técnica (ET)
+		quem recebe é o funcional
+		se10/se09 - exibe as requests
+		tabelas, campos.
