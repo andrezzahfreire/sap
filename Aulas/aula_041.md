@@ -1,4 +1,4 @@
-### Resumo
+### Resumo 
 
 Neste vídeo, Vinícius discute o controle de versões na programação ABAP, enfatizando a importância de registrar e gerenciar estados de programas ao longo do tempo. Ele demonstra como criar e gerenciar versões usando requests e explora recursos como comparação e reversão de versões. O controle de versões permite que desenvolvedores rastreiem alterações, identifiquem modificações e garantam a estabilidade do programa.
 
