@@ -1,27 +1,24 @@
 ### Resumo
-O vídeo discute os conceitos de contextos global e local na programação usando ABAP. Ele explica como variáveis são declaradas dentro desses contextos e demonstra suas diferenças através de exemplos práticos. Além disso, explora as melhores práticas para gerenciar variáveis e otimizar a legibilidade e organização do código.
+O vídeo ensina sobre o uso de formulários em programação ABAP, que permitem a reutilização de código armazenando trechos de código separadamente e chamando-os quando necessário. Os formulários podem ter parâmetros, permitindo personalização. Demonstrando o uso prático, o palestrante copia um programa e o modifica para incorporar formulários para calcular médias e exibir mensagens.
 
 ### Analogia
-Entender os contextos global e local na programação é como organizar uma caixa de ferramentas. As variáveis globais são como ferramentas compartilhadas entre todos os projetos, enquanto as variáveis locais são ferramentas específicas usadas apenas para uma tarefa particular. Manter as ferramentas organizadas e etiquetadas evita confusão e otimiza a eficiência, assim como gerenciar variáveis na programação.
+Os formulários em ABAP são como receitas pré-preparadas para cozinhar. Em vez de reescrever instruções toda vez que você assa um bolo, você tem um cartão de receita com instruções passo a passo. Quando você precisa assar um bolo, você pega o cartão de receita, segue as instruções e obtém resultados consistentes sem reinventar o processo cada vez.
 
 ### Notas
-- 🔍 Contexto global: Variáveis declaradas no nível do programa, acessíveis de qualquer lugar no programa.
-- 🔍 Contexto local: Variáveis declaradas dentro de um bloco ou sub-rotina específica, acessíveis apenas dentro desse escopo.
-- 🔍 Melhores práticas: Enfatiza o uso de variáveis locais para uma melhor organização do código e evitando manipulação direta de variáveis globais.
+- 🔧 Os formulários em ABAP permitem a reutilização de código armazenando trechos de código separadamente e chamando-os quando necessário.
+- 🔄 Os formulários podem ter parâmetros para personalização, como passagem de tabelas ou modificação de parâmetros.
+- 📝 O palestrante demonstra a cópia e modificação de um programa para incorporar formulários para tarefas específicas.
+- ⚙️ Os formulários permitem uma programação eficiente ao encapsular segmentos de código comumente usados.
+- 🛠️ Exemplos práticos incluem usar formulários para calcular médias e exibir mensagens.
+- 📄 Os formulários são criados dentro de inclui e podem ser chamados de qualquer lugar dentro do programa.
+- 🔄 O vídeo mostra o uso de declarações "perform" para executar formulários e demonstra como lidar com erros durante a execução.
+- 📋 O processo envolve criar, ativar e chamar formulários dentro de programas ABAP.
+- 🧩 Trechos de código dentro de formulários podem ser reutilizados várias vezes, aumentando a eficiência do desenvolvimento.
+- 💡 Os formulários simplificam tarefas de programação, reduzindo a redundância e melhorando a manutenibilidade do código.
 
-### Palavras-chave
-- **ABAP**: Uma linguagem de programação usada para desenvolver aplicativos em sistemas SAP.
-- **Contexto**: Refere-se ao escopo ou ambiente no qual as variáveis são declaradas e acessadas.
-- **Variáveis Globais**: Variáveis declaradas no nível do programa, acessíveis de qualquer lugar.
-- **Variáveis Locais**: Variáveis declaradas dentro de um bloco ou sub-rotina específica, acessíveis apenas dentro desse escopo.
-- **Otimização**: Refere-se à melhoria da eficiência e organização do código para um melhor desempenho.
-- **Sub-rotina**: Um segmento de código dentro de um programa maior que executa uma tarefa específica, semelhante a uma função ou método.
-
-### Palavras Complexas
-- **ABAP**: Abreviação de Advanced Business Application Programming, uma linguagem de programação de alto nível criada pela SAP.
-- **Sub-rotina**: Um trecho de código dentro de um programa maior que executa uma tarefa específica.
-
-### Acrônimos
-- **LD**: Dados Locais (referindo-se a variáveis locais)
-- **GD**: Dados Globais (referindo-se a variáveis globais)
-- **F5**: Tecla de função usada para executar código em muitos ambientes de programação.
+### Palavras-Chave
+- **ABAP**: Advanced Business Application Programming, uma linguagem de programação de alto nível criada pela SAP para desenvolver aplicativos de negócios.
+- **Formulários**: Segmentos de código encapsulados para reutilização em programas ABAP.
+- **Parâmetros**: Valores passados para um formulário para personalizar seu comportamento ou saída.
+- **Perform**: Declaração ABAP usada para chamar um formulário dentro de um programa.
+- **Inclui**: Seções de código ABAP que podem ser reutilizadas em vários programas.
