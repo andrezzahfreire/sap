@@ -15,30 +15,6 @@
      <ENTRY>Calcula a média anual com includes</ENTRY>
      <LENGTH>34</LENGTH>
     </item>
-    <item>
-     <ID>S</ID>
-     <KEY>P_1BIM</KEY>
-     <ENTRY>1 Bimestre</ENTRY>
-     <LENGTH>18</LENGTH>
-    </item>
-    <item>
-     <ID>S</ID>
-     <KEY>P_2BIM</KEY>
-     <ENTRY>2 Bimestre</ENTRY>
-     <LENGTH>18</LENGTH>
-    </item>
-    <item>
-     <ID>S</ID>
-     <KEY>P_3BIM</KEY>
-     <ENTRY>3 Bimestre</ENTRY>
-     <LENGTH>18</LENGTH>
-    </item>
-    <item>
-     <ID>S</ID>
-     <KEY>P_4BIM</KEY>
-     <ENTRY>4 Bimestre</ENTRY>
-     <LENGTH>18</LENGTH>
-    </item>
    </TPOOL>
   </asx:values>
  </asx:abap>
