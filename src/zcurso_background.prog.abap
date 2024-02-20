@@ -1,0 +1,15 @@
+REPORT ZCURSO_BACKGROUND.
+
+SELECTION-SCREEN BEGIN OF BLOCK main.
+    PARAMETERS p_data TYPE datum DEFAULT sy-datum.
+SELECTION-SCREEN END OF BLOCK main.
+
+START-OF-SELECTION.
+  DO 10 TIMES.
+    WAIT UP TO 2 SECONDS.
+    WRITE | Processou linha { sy-index }|.
+    NEW-LINE.
+  ENDDO.
+
+  WRITE |Programa concluido|.
+  NEW-LINE.

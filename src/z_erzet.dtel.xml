@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>Z_ERZET</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>Z_ERZET_D</DOMNAME>
+    <HEADLEN>12</HEADLEN>
+    <SCRLEN1>08</SCRLEN1>
+    <SCRLEN2>12</SCRLEN2>
+    <SCRLEN3>12</SCRLEN3>
+    <DDTEXT>Hora criacao</DDTEXT>
+    <REPTEXT>Hora criacao</REPTEXT>
+    <SCRTEXT_S>Hora cri</SCRTEXT_S>
+    <SCRTEXT_M>Hora criacao</SCRTEXT_M>
+    <SCRTEXT_L>Hora criacao</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>
