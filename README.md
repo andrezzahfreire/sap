@@ -43,7 +43,7 @@ Curso de SAP para iniciantes
 
 # 📁 Acesso ao projeto
 
-Você pode [acessar o código fonte do projeto](https://github.com/andrezzahfreire/sap/) ou [baixá-lo](https://github.com/andrezzahfreire/sap/).
+Você pode [acessar o código fonte do projeto](https://github.com/andrezzahfreire/sap/tree/main/src) ou [baixá-lo](https://github.com/andrezzahfreire/sap/).
 
 # 🛠️ Abrir e rodar o projeto
 
