@@ -1,0 +1,17 @@
+REPORT ZTABLE_CONTROL02.
+
+DATA: gt_plane TYPE STANDARD TABLE OF saplane.
+DATA: gs_plane TYPE saplane.
+
+*&SPWizard: Data incl. inserted by SP Wizard. DO NOT CHANGE THIS LINE!
+INCLUDE ZTABLE_CONTROL02_TOP .
+
+INCLUDE ZTABLE_CONTROL02_e01.
+
+
+START-OF-SELECTION.
+    SELECT *
+      INTO TABLE  gt_plane
+      FROM saplane.
+
+    CALL SCREEN 9000.

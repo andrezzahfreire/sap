@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CARRO</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Carro</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>MD_MOTOR_COMBUSTAO</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Natural number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MD_RODA1</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Character 100</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MD_RODA2</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Character 100</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MD_RODA3</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Character 100</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MD_RODA4</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Character 100</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
