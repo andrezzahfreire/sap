@@ -285,7 +285,7 @@ method REQUEST_TEST.
     FROM sairport.
 
   " Acesse https://crudcrud.com e troque o hash!
-  ld_base_url = 'https://crudcrud.com/api/816939db0bb54b3e826fe9552bfdbb40/airport'.
+  ld_base_url = 'https://crudcrud.com/api/fa734df3d9a649f5b6e95b985097aa68/airport'.
   ld_json = cl_fdt_json=>data_to_json( ia_data = ls_sairport ).
 
   BREAK-POINT.

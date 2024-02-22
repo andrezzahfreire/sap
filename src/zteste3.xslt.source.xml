@@ -1,0 +1,30 @@
+<?sap.transform simple?>
+<tt:transform xmlns:tt="http://www.sap.com/transformation-templates" xmlns:ddic="http://www.sap.com/abapxml/types/dictionary" xmlns:def="http://www.sap.com/abapxml/types/defined">
+  <tt:root name="ROOT" type="?"/>
+  <tt:root name="DATA" type="ddic:ZTEST_ORDEM"/>
+  <tt:template>
+    <DATA>
+      <CLIENTE>
+        <KUNNR tt:value-ref=".DATA.CLIENTE.KUNNR"/>
+        <NOME tt:value-ref=".DATA.CLIENTE.NOME"/>
+      </CLIENTE>
+      <ERDAT tt:value-ref=".DATA.ERDAT"/>
+      <ERZET tt:value-ref=".DATA.ERZET"/>
+      <VBELN tt:value-ref=".DATA.VBELN"/>
+      <PESO_TOT tt:value-ref=".DATA.PESO_TOT"/>
+      <VALOR_TOT tt:value-ref=".DATA.VALOR_TOT"/>
+      <ITEM_TAB>
+        <POSNR tt:value-ref=".DATA.ITEM_TAB.POSNR"/>
+        <MATNR tt:value-ref=".DATA.ITEM_TAB.MATNR"/>
+        <MAKTX tt:value-ref=".DATA.ITEM_TAB.MAKTX"/>
+        <COND_TAB>
+          <POSNR tt:value-ref=".DATA.ITEM_TAB.COND_TAB.POSNR"/>
+          <KPOSN tt:value-ref=".DATA.ITEM_TAB.COND_TAB.KPOSN"/>
+          <TIPO tt:value-ref=".DATA.ITEM_TAB.COND_TAB.TIPO"/>
+          <MONTANTE tt:value-ref=".DATA.ITEM_TAB.COND_TAB.MONTANTE"/>
+          <VALOR tt:value-ref=".DATA.ITEM_TAB.COND_TAB.VALOR"/>
+        </COND_TAB>
+      </ITEM_TAB>
+    </DATA>
+  </tt:template>
+</tt:transform>

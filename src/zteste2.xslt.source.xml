@@ -1,0 +1,18 @@
+<?sap.transform simple?>
+<tt:transform xmlns:tt="http://www.sap.com/transformation-templates" xmlns:ddic="http://www.sap.com/abapxml/types/dictionary" xmlns:def="http://www.sap.com/abapxml/types/defined">
+  <tt:root name="ROOT" type="?"/>
+  <tt:root name="DATA" type="ddic:ZTAB1_T"/>
+  <tt:template>
+    <DATA>
+      <tt:loop ref=".DATA">
+        <SCARR>
+          <MANDT tt:value-ref="MANDT"/>
+          <CARRID tt:value-ref="CARRID"/>
+          <CARRNAME tt:value-ref="CARRNAME"/>
+          <CURRCODE tt:value-ref="CURRCODE"/>
+          <URL tt:value-ref="URL"/>
+        </SCARR>
+      </tt:loop>
+    </DATA>
+  </tt:template>
+</tt:transform>
